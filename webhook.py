@@ -2,7 +2,7 @@ import requests
 import json
 
 webhook_url = 'http://127.0.0.1:5000/webhook'
-
+# upi merchandise like PHONEpay (CLIENT side)
 data = { 'name': 'ssddds Journey', 
          'Channel URL': 'https://www.youtube.com/channel/UC4Snw5yrSDMXys31I18U3gg' }
 
