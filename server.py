@@ -2,7 +2,7 @@ from flask import Flask, request, abort
 
 app = Flask(__name__)
 
-# BANK side like SBI,HDFC bank (it act like server side, which will return response to webhook.py)
+# upi merchandise like PHONEpay (CLIENT side)
 @app.route('/webhook', methods=['POST'])
 def webhook():
     if request.method == 'POST':
